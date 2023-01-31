@@ -9,9 +9,7 @@ def show():
 title = pyfiglet.figlet_format("tic tac toe", font="slant")
 print(title)
 
-
 def check_game():
-    
     if game_board[0][0] == "X" and game_board[0][1] == "X" and game_board[0][2] == "X" :
         print("player1 : you win!!!")
         return 1
@@ -68,7 +66,6 @@ game_board = [["-", "-", "-"],
                 ["-", "-", "-"],
                 ["-", "-", "-"]]
 show()
-
 
 while True:
     #player1
